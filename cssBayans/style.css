@@ -1,0 +1,73 @@
+.workspace{
+    
+    padding-top: 0.35em;
+    padding-left: 2.4em;
+    
+}
+body {
+    font-family: "Roboto";
+    font-style:normal;
+    font-size: 24px; 
+    display: inline;
+    height: 80%;
+    width: 50%;
+    background-color: rgb(105, 150, 146);
+} 
+.sizeofpic{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1%;
+    margin-left: 10%;
+    font-size: 150%;
+    width: 12em;
+    height: auto;
+}
+.allmeme{
+    justify-content: flex-start;
+    margin-top: 3%;
+    margin-left: 10%;
+    font-size: 140%;
+    border-top: 1px solid gray;
+    padding-top: 2%;
+}
+.meme:hover{
+    color: rgb(20, 14, 189);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.meme:hover div.visibility{
+    
+    display: flex;
+    transition: 0.5s;
+}
+.head{
+    display: flex;
+    margin-top: 3%;
+    font-size: 350%;
+    justify-content: flex-start;
+    margin-left: 10%;
+    font-weight: 900;
+    
+}
+.visibility{
+    margin-left: 10%;   
+    opacity: 0;
+    
+    display: none;
+   }
+.meme:hover{
+    color: rgb(20, 14, 189);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.meme:hover div.visibility{
+    opacity: 1;
+    display: flex;
+    transition: 0.5s;
+}
+
+.meme::after div.visibility{
+    transition: 0.5s;
+}

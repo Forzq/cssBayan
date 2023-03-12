@@ -1,8 +1,6 @@
 .workspace{
-    
     padding-top: 0.35em;
     padding-left: 2.4em;
-    
 }
 body {
     font-family: "Roboto";
@@ -48,12 +46,10 @@ body {
     justify-content: flex-start;
     margin-left: 10%;
     font-weight: 900;
-    
 }
 .visibility{
     margin-left: 10%;   
     opacity: 0;
-    
     display: none;
    }
 .meme:hover{
@@ -67,7 +63,6 @@ body {
     display: flex;
     transition: 0.5s;
 }
-
 .meme::after div.visibility{
     transition: 0.5s;
 }
